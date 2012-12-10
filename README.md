@@ -2,6 +2,8 @@ keywordCompare
 ==============
 
 A keyword analysis project build in Node JS.
+####Who is responsible for this mess?
+#ME!
 
 ###WHAT?
 This is a side project to write a library for nodejs
@@ -51,14 +53,14 @@ word3\r\n
 assuming you follow that criteria, you can then configure dictionary parse
 to rip that file into new aphabetically organized text files.
 
-then current file within this project contains over 160,000 english words.
+the ('dictionary.txt') file within this project contains over 160,000 english words.
 
-they are parsed, and saved into a comma delimited format so you can
+they are parsed, and saved into corresponding alphabetical files in a comma delimited format so you can
 easily read them back into your program.
 
 ### Why?
 Because it saves you from loading a #LARGE text file into memory.
-If you intend to use this for a web service, then you should be considered
+If you intend to use this for a web service, then you should be concerned
 with scalabilty.
 
 ## FINALLY
